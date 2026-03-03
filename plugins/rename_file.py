@@ -162,7 +162,7 @@ async def rename_doc(bot, update):
                 document=new_file_name,
                 thumb=thumb_image_path,
                 caption=f"{caption_text2}",
-                parse_mode = "HTML",
+                parse_mode=enums.ParseMode.HTML,
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="𝚂ᴜᴘᴘᴏʀᴛ 𝙲ʜᴀɴɴᴇʟ", url=f"https://t.me/Mai_bOTs")]
               ]), 
