@@ -157,7 +157,7 @@ async def rename_doc(bot, update):
                 img.save(thumb_image_path, "JPEG")
                 # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
             c_time = time.time()
-            await bot.send_document(
+            await bot.send_video(
                 chat_id=update.chat.id,
                 document=new_file_name,
                 thumb=thumb_image_path,
