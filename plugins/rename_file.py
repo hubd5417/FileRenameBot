@@ -154,7 +154,7 @@ async def rename_doc(bot, update):
                 caption=caption_text,
                 parse_mode=enums.ParseMode.HTML,
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("SUPPORT CHANNEL", url="https://t.me/Mai_bOTs")]
+                    [InlineKeyboardButton("SUPPORT CHANNEL", url="https://t.me/update_botes")]
                 ]),
                 reply_to_message_id=update.reply_to_message.id,
                 progress=progress_for_pyrogram,
@@ -174,7 +174,7 @@ async def rename_doc(bot, update):
                 caption=caption_text,
                 parse_mode=enums.ParseMode.HTML,
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("SUPPORT CHANNEL", url="https://t.me/Mai_bOTs")]
+                    [InlineKeyboardButton("SUPPORT CHANNEL", url="https://t.me/update_botes")]
                 ]),
                 reply_to_message_id=update.reply_to_message.id,
                 progress=progress_for_pyrogram,
