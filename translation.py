@@ -1,13 +1,13 @@
 class Translation(object):
     START_TEXT = """ <b> Hi {} , \nI'm A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail And Custom Caption support!</b> \n
 
-<b>Bot Maintained By: @MaI_BoTs </b> \n 
+<b>Bot Maintained By: @MedBatch </b> \n 
 """
 
     BANNED_USER_TEXT = "Sorry!! But Mai Owner As Banned You From Using This Service. That Means You Can't Run Meh Now! \n \n Contact : @No_OnE_Kn0wS_Me For more Details.. " 
     DOWNLOAD_START = "<b>Downloading To My server !! Pls Wait</b>"
     UPLOAD_START = "<b>Downloading Completed Now I'm Uploading Into TeleGram</b>"
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Thank you for Using Me Support Our Channel @MaI_BoTs ❤️</b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Thank you for Using Me Support Our Channel @MedBatch ❤️</b>"
     SAVED_CUSTOM_THUMB_NAIL = "<b>thumbnail Saved ✅ This Is Permanent Until</b> /delthumb ❤"
     DEL_ETED_CUSTOM_THUMB_NAIL = "thumbnail cleared succesfully🤦"
     SAVED_RECVD_DOC_FILE = "<b>File Downloaded Successfully 😎</b>"
