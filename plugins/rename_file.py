@@ -18,7 +18,8 @@ else:
 
 # the Strings used for this "thing"
 from translation import Translation
-
+from pyrogram import enums
+parse_mode=enums.ParseMode.HTML
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram import filters 
@@ -161,11 +162,11 @@ async def rename_doc(bot, update):
                 document=new_file_name,
                 thumb=thumb_image_path,
                 caption=f"{caption_text2}",
-                parse_mode = "html",
+                parse_mode = "HTML",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="𝚂ᴜᴘᴘᴏʀᴛ 𝙲ʜᴀɴɴᴇʟ", url=f"https://t.me/Mai_bOTs")]
               ]), 
-                reply_to_message_id=update.reply_to_message.message_id,
+                reply_to_message_id=update.reply_to_message.id,
                 progress=progress_for_pyrogram,
                 progress_args=(
                     Translation.UPLOAD_START,
@@ -181,7 +182,7 @@ async def rename_doc(bot, update):
             await bot.edit_message_text(
                 text=Translation.AFTER_SUCCESSFUL_UPLOAD_MSG,
                 chat_id=update.chat.id,
-                message_id=a.message_id,
+                message_id=a.id,
                 disable_web_page_preview=True
            )
     else:
