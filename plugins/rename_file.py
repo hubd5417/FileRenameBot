@@ -173,7 +173,6 @@ async def rename_doc(bot, update):
                 thumb=thumb_image_path,
                 caption=caption_text,
                 parse_mode=enums.ParseMode.HTML,
-                supports_streaming=True
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("SUPPORT CHANNEL", url="https://t.me/Mai_bOTs")]
                 ]),
